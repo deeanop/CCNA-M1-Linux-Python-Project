@@ -1,0 +1,84 @@
+# =========================
+# PYTHON (Netmiko / scripts)
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# venv / virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# pip / build artifacts
+pip-log.txt
+pip-delete-this-directory.txt
+dist/
+build/
+*.egg-info/
+
+# Jupyter (dacă folosești)
+.ipynb_checkpoints/
+
+# =========================
+# GNS3 PROJECTS
+# =========================
+# GNS3 temporary files
+*.gns3project~
+*.gns3project.bak
+*.gns3project.lock
+
+# GNS3 appliances / cache
+project-files/cache/
+project-files/dynamips/
+project-files/qemu/
+project-files/docker/
+project-files/vmware/
+project-files/iou/
+
+# logs
+*.log
+logs/
+
+# captured traffic
+*.pcap
+*.pcapng
+
+# autosave
+*.autosave
+
+# =========================
+# LINUX / TOOLBOX / PERMISSIONS
+# =========================
+# Linux filesystem metadata
+*.swp
+*.swo
+*~
+.directory
+
+# Toolbox / container stuff (GNOME Toolbox / distrobox / etc.)
+.toolbox/
+.distrobox/
+container-home/
+var/home/
+
+# permissions dumps / accidental exports
+*.cap
+*.acl
+
+# =========================
+# IDE / EDITORS
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# OS specific
+# =========================
+.DS_Store
+Thumbs.db
